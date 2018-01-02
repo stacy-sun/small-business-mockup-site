@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World Coder</title>
+        <!-- META TAGS -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="shortcut icon" href="img/favicon.ico"/>
+        <meta name="description" content="Hello World Coder is a web design and development agency based in Vancouver.">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">  
+        <!-- Bootstrap Stylesheet -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">        
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">       
+        <!-- Style Sheet -->
+        <link rel="stylesheet" href="css/push-menu.css">
+        <link rel="stylesheet" href="css/global.css">
+    </head>
+<body id="top">
+
+<div class="fixed-top"></div>
+
+<div class="header-container slide" data-background="#333298">
+    <nav class="navbar navbar-expand-md navbar-dark">
+         <a class="navbar-brand" href="#"><img src="img/logo.svg" width="50px"></a>
+         <button class="navbar-toggler visible-xs" type="button" data-toggle="push" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div id="navbarsDefault">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="$('#about').animatescroll({scrollSpeed:1000,easing:'easeInOutQuad'});">About</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="$('#service').animatescroll({scrollSpeed:1500,easing:'easeInOutQuad'});">Service</a></li>
+                <li class="nav-item"><a class="nav-link" onclick="$('#footer').animatescroll({scrollSpeed:2500,easing:'easeInOutQuad'});">Contact</a></li>
+            </ul>
+              <ul class="icons">
+                    <li><a href="#" class="icon fa-twitter nav-item"><span class="label"></span></a></li>
+                    <li><a href="#" class="icon fa-facebook"><span class="label"></span></a></li>
+                    <li><a href="#" class="icon fa-instagram"><span class="label"></span></a></li>
+                    <li><a href="#" class="icon fa-github"><span class="label"></span></a></li>
+                    <li><a href="#" class="icon fa-dribbble"><span class="label"></span></a></li>
+                </ul>
+
+        </div>
+</nav>
+
+
+     <!-- home section -->
+     <section id="home">
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h1 class="display-3">Hello World Coder</h1>
+                <div class="intro">
+                    <p>A creative digital agency with expertise in web design and development. We build cool stuff with cool people.</p>
+                    <a class="btn btn-outline-primary btn-sm mt-30" role="button" onclick="$('#about').animatescroll({scrollSpeed:1000,easing:'easeInOutQuad'});">START EXPLORING</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="scroll-animation">
+            <a onclick="$('#about').animatescroll();">        
+                <span class="m_scroll_arrows unu"></span>
+                <span class="m_scroll_arrows doi"></span>
+                <span class="m_scroll_arrows trei"></span>
+            </a>
+        </div>
+    </section>
+</div>
+
+<div class="main-container">
+      <!-- About Section -->
+    <section id="about" class="container slide" data-background="#333298" data-color="#000">
+        <div class="about-center">
+            <div class="text-center scroll-reveal">
+                <h1 class="display-3 mt-30">WHAT DO WE DO?</h1>
+                <p>Hello World Coder is a boutique web design and development agency headquartered in Vancouver, BC, with offices in Toronto and New York. Our team exists to turn great brands and clear business goals into exceptional, high-performing websites.</p>                                
+            </div>
+        </div>
+
+        <div class="scroll-animation mt-100">
+            <a onclick="$('#top').animatescroll();">
+                <span class="m_scroll_arrows_top trei"></span>
+                <span class="m_scroll_arrows_top doi"></span>
+                <span class="m_scroll_arrows_top unu"></span>
+            </a>
+        </div>
+    </section>
+
+        <!-- Service Section -->
+        <section id="service">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12">
+    
+                        <div class="main_service_area"> 
+                            
+                            <div class="single_service_area slide" id="service-1" data-background="#fd8825">
+                                <div class="text-center mt-100 scroll-reveal">
+                                    <h1 class="display-3">OUR SERVICE</h1>
+                                </div><!-- End of head title -->
+                               
+                                <div class="row mt-100">
+                                        <div class="signle_service_img col-sm-12 col-lg-6 mb-30 scroll-reveal">
+                                            <img src="img/project-1.png" alt="design and development" style="width: 100%;">
+                                            <div id="parallax-1">
+                                                <img src="img/project-1-1.png" width="150px"data-enllax-ratio=".3" data-enllax-type="foreground" />
+                                                <img src="img/project-1-4.png" width="200px"data-enllax-ratio=".3" data-enllax-type="foreground" />
+                                            </div>
+                                         </div>
+
+                                        <div class="single_service col-sm-12 col-lg-6 scroll-reveal">
+                                            <h3><span class="underline">cre</span>ative</h3>
+                                            <h2 class="display-3">Design</h2>
+                                            <div class="separator2"></div>
+                                            <p>Web design has moved beyond the days of turn-key solutions. Drive Digital’s team of experienced web designers is second to none, working collaboratively with our clients to create beautiful, high-performing custom websites that marry aesthetics with business goals.</p>
+                                            <a href="#" class="btn btn-default btn-sm">learn more</a>
+                                        </div>
+                                  
+                                </div>
+                            </div><!-- End of single service area -->
+    
+                            <div class="single_service_area mt-100 slide" id="service-2" data-background="#532168">
+
+                                <div class="row mt-100">
+                                    <div class="col-sm-12 col-lg-6 mb-30">
+                                        <div class="signle_service_img scroll-reveal">
+                                            <img src="img/project-2.gif" alt="digital marketing" style="width: 100%;">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-12 col-lg-6">
+                                        <div class="single_service scroll-reveal">
+                                            <h3><span class="underline">dig</span>ital</h3>
+                                            <h2 class="display-3">Marketing</h2>
+                                            <div class="separator2"></div>
+                                            <p>Our Vancouver Digital Marketing experts use powerful enterprise tools and an all-in-one SEO platform to track and manage keyword ranking, optimize content at the keyword/page level and build valuable backlinks by finding the leading influencers in your space. That’s how we can increase your website’s visibility.</p>
+                                            <a href="#" class="btn btn-default btn-sm">learn more</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div><!-- End of single service area -->
+
+                            <div class="single_service_area mt-100 slide" id="service-3" data-background="#e34849">
+                                <div class="row mt-100">
+                                    
+                                        <div class="signle_service_img col-sm-12 col-lg-6 mb-30 scroll-reveal">
+                                            <img src="img/project-3.jpg" alt="crm" style="width: 100%;">
+                                            <div id="parallax-2">
+                                                <img src="img/project-3-1.png" width="200px"data-enllax-ratio=".3" data-enllax-type="foreground" />
+                                                <img src="img/project-3-2.png" width="100px"data-enllax-ratio=".3" data-enllax-type="foreground" />
+                                            </div>
+    
+                                         </div>
+
+                                        <div class="single_service col-sm-12 col-lg-6 scroll-reveal">
+                                            <h3><span class="underline">Cus</span>tomized</h3>
+                                            <h2 class="display-3">CRM</h2>
+                                            <div class="separator2"></div>
+                                            <p>Content Management Systems (CMS) are designed to simplify the process of publishing content to the web, by allowing people to add content to the web without requiring technical knowledge of HTML to do so.</p>
+                                            <a href="#" class="btn btn-default btn-sm">learn more</a>
+                                        </div>
+                                  
+                                </div>
+                                </div><!-- End of single service area -->
+    
+
+                            </div>
+                        </div><!-- End of col-sm-12 -->
+                    </div><!-- End of row -->
+            <div class="scroll-animation">
+                <a onclick="$('#top').animatescroll();">
+                    <span class="m_scroll_arrows_top trei"></span>
+                    <span class="m_scroll_arrows_top doi"></span>
+                    <span class="m_scroll_arrows_top unu"></span>
+                </a>
+            </div>
+        </section><!-- End of Service Section -->
+</div>
+
+        		<!-- Footer -->
+			<div id="footer" class="slide" data-background="#333298">
+                    <div class="container mt-100">
+                        <div class="text-center scroll-reveal">
+                            <h2 class="display-3">GET IN TOUCH</h2>
+                            <p class="mt-30">Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+                        </div>
+
+                        <iframe name="frame" style="display:none;"></iframe>                              
+
+                        <form method="post" class="scroll-reveal" action="formemail.php" target="frame">
+                            <div class="row mt-50">
+                                <div class="col-md-6 col-xs-12">
+                                    <input type="text" name="name" placeholder="Name" />
+                                </div>
+                                <div class="col-md-6 col-xs-12">
+                                    <input type="email" name="email" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="row mt-30">
+                                <div class="col-md-12">
+                                    <textarea name="message" placeholder="Message" rows="6"></textarea>
+                                </div>
+                            </div>
+                            <div class="row mt-50 mb-50">
+                                <div class="col-md-12">
+                                    <input type="submit" value="Send Message" class="btn btn-outline-primary btn-sm"/>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="scroll-animation arrow-white">
+                                <a onclick="$('#top').animatescroll();">
+                                    <span class="m_scroll_arrows_top trei"></span>
+                                    <span class="m_scroll_arrows_top doi"></span>
+                                    <span class="m_scroll_arrows_top unu"></span>
+                                </a>
+                        </div>
+
+                        <ul class="copyright">
+                                <li>&copy; Copyright 2017. All rights reserved by Stacy Sun.</li>
+                        </ul>
+    
+                    </div>
+
+                </div>
+
+    <div class="fixed-bottom"></div>
+    
+    <!-- Javascript -->
+
+            <!-- jQuery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <!-- Bootstrap JS -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <!-- Push Menu JS -->
+            <script src="js/push-menu.js"></script>
+            <!-- Foreground Parallax -->
+            <script src="js/jquery.enllax.min.js"></script>
+            <!-- Animate Scroll (for nav) and Scrollie (for page background)-->
+            <script src="js/animatescroll.min.js"></script>
+            <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/2542/jquery.scrollie.min_1.js'></script>
+            <!-- Scroll Reveal -->
+            <script src="js/scrollreveal.min.js"></script>
+            <!-- Main Javascript -->
+            <script src="js/main.js"></script>
+</body>
+</html>
